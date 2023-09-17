@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+.container{
+    width: 100%;
+     
+}
+.color{
+    background-color: rgb(232, 232, 232);
+
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 55px;
+   
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: left;
+    line-height: 35px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(49, 49, 49);
+     
+    border-bottom: solid 1px;
+
+   
+}
+#cococola{
+    
+    margin-left: 113px;
+    height: 27px;
+    font-family:  'Trebuchet MS', sans-serif;
+    
+}
+.main-box{
+     
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
+    padding-top: 30px;
+    
+}
+.background{
+    background-color: rgb(232, 232, 232);
+}
+.our{
+
+    font-family:  'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 50px;
+
+    
+    text-align: center;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+}
+.card{
+    
+    border-radius: 15px;
+    margin: 15px;
+    width: 36%;
+
+    height: auto;
+    background-color:  white;
+}
+
+.card-image{
+    border-radius: 15px 15px 0 0;
+    height: 406px;
+    
+    margin-bottom: 30px;
+    background-size: cover;
+    
+    
+ 
+} 
+.card-1{
+
+
+
+    background-image: url(image/1art.webp);
+}
+.card-2{
+    background-image: url(image/Case\ Study\ 5_ASP_AUSTRALIA_CCEP\ Sourcing\ from\ Wind\ Farm-470KB\ \(1\).webp);
+}
+.card h2{
+    text-align: start;
+    padding: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+     padding-left: 52px;
+}
+
+.card p{
+    text-align: start;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 10px;
+
+    padding-left: 38px;
+    margin: auto;
+    color: black;
+
+} 
+ 
+#mm{
+  
+    margin-top: 32px;
+}
+
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    padding-top: 43px;
+}
+.second{
+    width: 24%;
+     height:auto;
+
+    border-radius: 10px;
+    margin: 15px;
+    
+    background-color:  white;
+}
+.box-image{
+    border-radius: 15px 15px 0 0;
+    height: 270px;
+    
+    
+    background-size: cover;
+    
+}
+.box1{
+    background-image: url(image/Case\ Study\ 7_North\ America_Coca\ Cola\ Wetlands\ Restoration_Jacob\ Spetzler-34-1-4by3_Optimized_For_Carousel.webp);
+}
+.box2{
+    background-image: url(image/Astro\ AI.webp);
+}
+.box3{
+    background-image: url(image/TopoChico4-3.webp);
+}
+
+.second h2{
+    text-align: start;
+    padding: 14%;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height:19px;
+    color: #000000;
+     padding-left: 52px;
+     
+}
+.second p{
+    text-align: start;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 8px;
+
+    padding-left: 38px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+
+
+}
+.link{
+    font-family: Noto-regional, TCCC-UnityHeadline;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: start;
+    font-weight: bold;
+   
+    
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    padding: 82px;
+    margin: 56px;
+    gap: 12px;
+    width: 100%;
+    position: relative;
+    border-radius: 14px 14px 0 0;
+     
+
+}
+.text-box{
+    width: 600px;
+    height: 600px;
+    margin-right: 680px;
+    border-radius: 14px;
+    background-color:white;
+    position: absolute;
+   
+    
+}
+
+.text-box h3{
+    
+    padding-left: 100px;
+    padding-top: 80px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family:'Trebuchet MS', sans-serif;
+    width: 640px;
+   
+     
+}
+.text{
+
+    margin-left: 100px;
+    padding-top:  40px;
+    width: 61%;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: start;
+    font-family: 'Trebuchet MS', sans-serif;;
+
+
+}
+.btn{
+       height: 35px;
+    width: 230px;
+    margin-top: 20%;
+    margin-left: 20%;
+    font-size: 101%;
+    background: white;
+    border-radius: 15px;
+}
+
+.picture-box{
+/*    
+    width: 1552px;
+    height: 604px; */
+    border-radius: 14px;
+      
+
+    margin-top: 6%;
+    margin-left: 32%;
+   
+   
+    
+    
+}
+/* .image1{
+    height: 600px;
+    width: 800px;
+    margin-left: 430px;
+    margin-top: 100px;
+    
+    background-image: url(image/PACS\ Singapore\ Employees\ 2021-019-cut2.webp);
+}
+ */
+
+ .imgg{
+     border-radius: 14px;
+      
+
+    margin-top: 6%;
+    margin-left: -40%;
+   
+   
+ }
+ #tbox{
+    margin-left: 83%;
+}
+.btn1{
+
+    height: 35px;
+    width: 280px;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 101%;
+    background: white;
+    border-radius: 15px;
+
+}
+
+
+.brnd{
+    padding-bottom: 78px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 26px;
+     font-family: 'Trebuchet MS', sans-serif;;
+}
+
+
+.brands{
+
+   margin: auto;
+   max-width: 864px;
+   height: 864px;
+    background-color: rgb(232, 232, 232);
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  
+
+} 
+
+.item{
+    
+    background-color: #ffffff;
+    border-radius: 14px;
+    width: 256px;
+    height: 256px;
+   
+    
+}
+.logo{
+ 
+    background-color: #ffffff;
+        
+       
+
+       margin: 32px;
+       width: 188px;
+}
+.view{
+    
+    width: 23%;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000;
+    border-radius: 28px;
+
+    height: 43px;
+    margin-left: 570px;
+
+}
+.all{
+    margin-bottom: 180px;
+    margin-top: 40px;
+   
+    
+ 
+}
+.ft{
+    background-color: black;
+}
+
+
+
+.end{
+     
+    width: 100%;
+    height: 207px;
+    display: flex;
+    gap: 30%;
+    margin-bottom: 34px;
+    border-bottom: solid 3%  ;
+}
+.coco{
+    margin-top: 88px;
+    margin-left: 175px;
+}
+
+.loc{
+    margin-top: 88px;
+    width: 500px;
+}
+.bttn{
+      
+    width: 53%;
+    font-size: 16px;
+    line-height: 14px;
+    color: white;
+    border-radius: 28px;
+    margin-left: 120px;
+    height: 43px;
+    border: solid  3%;
+    border-color: #ffffff;
+     background-color: #000000;
+
+}
+.footr{
+    margin: auto;
+    width: 1152px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    display: grid;
+    height: auto;
+
+}
+.list h2{
+    color: #9b9b9b;
+    font-size: 10px;
+    font-family:'Trebuchet MS', sans-serif;
+    line-height: 18px;
+    align-items: start;
+
+}
+
+.list .lst{
+    color: #ffffff;
+    line-height: 38px;
+    font-size: 16px;
+    align-items: start;
+    font-family: 'Trebuchet MS', sans-serif;
+    list-style: none;
+    
+
+}
+.apps{
+    display: flex;
+    gap: 12px;
+
+}
+.social{
+    list-style: none;
+     
+    color: white;
+    display: flex;
+    gap: 24px;
+    
+    font-size: 28px;
+
+}
+.company{
+    
+    color: white;
+    margin-top: 100px;
+    margin-left: 72%;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+    line-height: 18px;
+
+   
+}
+.fa-arrow-up{
+
+     
+    margin-right: 12px; 
+    width: 44px;
+    height: 46px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 12px;
+    float: right;
+    background: #000000;
+    font-size: x-large;
+    
+    
+ }
+ 
+
+
+  
+
+
+ 
+
+
+ 
+
+
+
+
